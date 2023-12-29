@@ -1,0 +1,15 @@
+$primary-gray: #333333;
+$light-gray: #999999;
+$white: #ffffff;
+$primary-blue: #395cc6;
+$light-blue: #90a6d1;
+$dark-blue:#1c2a4e;
+
+:export{
+    primary-gray: $primary-gray;
+    light-gray: $light-gray;
+    white: $white;
+    primary-blue: $primary-blue;
+    light-blue: $light-blue;
+    dark-blue: $dark-blue;
+}

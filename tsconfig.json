@@ -19,8 +19,8 @@
       }
     ],
     "paths": {
-      "@/styles/*": ["styles/*"],
-      "@/components/*": ["components/*"],
+      "@/styles/*": ["./src/styles/*"],
+    
       
     }
   },
