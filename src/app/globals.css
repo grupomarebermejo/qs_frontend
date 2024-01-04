@@ -13,4 +13,27 @@ body {
   overflow-x: hidden;
 }
 
+* {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  scrollbar-width: auto, thin, none;
+  scrollbar-width: unset;
+  /* scrollbar-width: inherit; */
+  scrollbar-width: none;
+}
+
+/* *::-webkit-scrollbar {
+    -webkit-appearance: inherit; 
+  
+} */
+
+*::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+*::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
 
