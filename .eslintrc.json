@@ -1,3 +1,23 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "ignorePatterns": [
+      "guide.reducer.ts",
+      "guide.thunk.ts",
+      "user.thunk.ts",
+      "Filters.tsx",
+      "src/pages/mis-productos/catalogo-de-productos/index.tsx"
+  ],
+  "rules": {
+      "indent": [
+          "error",
+          4
+      ],
+      "semi": [
+          "error",
+          "always"
+      ],
+      "camelcase": [
+          "error"
+      ]
+  }
 }
